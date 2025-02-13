@@ -1,0 +1,125 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* navbar starts here */
+
+.nav-logo{
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px auto;
+}
+.nav-logo img{
+    height: 85px;
+    width: 85px;
+    
+}
+.nav-heading h1{
+    padding-right: 20px;
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 25px 50px;
+    
+}
+.nav-menu a{
+    padding: 4px 20px;
+    margin:0px 2px;
+    font-size: 1.5rem;   
+    background-color: orange;
+}
+/* navbar ends here */
+
+/* profile starts here */
+.top-weather-icon{
+    right: 100px;
+    top: 20px;
+    height: 130px;
+    width: 110px;
+    transition: transform 2s;
+}
+
+.top-weather-icon:hover{
+    transform: rotate(360deg);
+}
+.bottom-weather-icon{
+    left: 100px;
+    height: 130px;
+    width: 110px;
+    transition: transform 2s;
+    padding-bottom: 20px;
+}
+
+.bottom-weather-icon:hover{
+    transform: rotate(360deg);
+}
+.description h1{
+    padding-top: 65px;
+    font-size: 2.8rem;
+}
+.description p{
+    color: gray;
+    font-size:1.7rem;
+    padding-bottom: 20px;
+}
+
+/* profile ends here */
+
+/* about start here  */
+.aboutme-image{
+ margin-top: 100px;
+}
+.aboutme-image img{
+    height: 300px;
+    width: 270px;
+}
+.aboutme-desc p,a{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+
+/* about ends here  */
+/*  professional experience starts here..........  */
+.professional-experience{
+    padding: 1% 5%;
+}
+/*  professional experience ends here..........  */
+
+
+/* achievement-contact starts here.... */
+.contact button{
+    padding: 5px 20px;
+}
+
+/* achievement-contact starts here.... */
+
+/* footer starts here..... */
+.footer-menu{
+    text-align: right;
+}
+.footer-menu a{
+    display: inline;
+}
+.footer-desc{
+    text-align: right;
+}
+
+
+/* footer ends here........... */
